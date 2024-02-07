@@ -1,1 +1,4 @@
-get_yesterday<-function(){return(Sys.date()-1)}
+get_yesterday <- function() {
+  x <- as.character(Sys.Date() - 1)
+  return(x)
+}
